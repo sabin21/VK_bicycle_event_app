@@ -1,0 +1,35 @@
+body{
+  &.depth{
+    background-color: #1797F5; 
+  }
+}
+.draft-2-wrap{
+  background-color: #73E6FF;
+  img {
+    max-width: 100%;
+  }
+  &.depth{
+    background-color: #1797F5;
+    padding-top: 1.15rem;
+  }
+}
+.head-wrap{
+  width:100%;
+  background-color: #1797F5; line-height: 0;
+  img{ max-width: 100%; }
+  video{ width:100%; }
+}
+.main{
+  position: relative; cursor: pointer;
+  &.full-height{
+    height:100vh; overflow-y: hidden;
+  }
+}
+.depth-wrap{
+  position: absolute; width:100%; height:100vh;
+  top:0; right:-100%;
+  transition: right 0.3s;
+  &.active{
+    right:0;
+  }
+}

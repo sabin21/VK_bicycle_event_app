@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.querySelector(".main-wrap"),t=document.querySelector(".depth-wrap");e.addEventListener("click",(function(){t.classList.add("active"),e.classList.add("full-height")})),t.addEventListener("click",(function(){t.classList.remove("active"),e.classList.remove("full-height")}))})();
